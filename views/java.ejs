@@ -1,0 +1,23 @@
+
+<%- include('partials/header.ejs') %> 
+
+<body>
+
+<%- include('partials/nav.ejs') %> 
+
+<main>
+    <h2><%= language.title %></h2>
+    
+    <figure>
+        <img src="/logos/java/java.png" style="width: 300px; height: auto;" >
+    </figure>
+    
+    <div>
+        <p id = "description" ><%= language.extract %></p>
+    </div>
+</main>
+
+<%- include('partials/footer.ejs') %> 
+
+</body>
+</html>

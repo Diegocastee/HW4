@@ -1,0 +1,80 @@
+/* Configures the header titles h1 */
+h1 {
+    font-family: 'crimson-text', serif;
+    font-size: 5rem;
+    color:#73ffff;
+    text-shadow: 4px 4px 4px #000000;
+
+}
+
+/* Configures the website's body, such as background images, body text design, font size, drop shadows, etc */
+body {
+  background-color: #dadada;
+  background-image: url("../img/wallpaper.webp");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF; /* Set text color to white for contrast */
+  font-family: Calibri, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;  /* Set line height for better readability */
+  text-shadow: 4px 4px 4px #000000;
+}
+
+/* Configures the footer's content */
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    color:rgb(203, 206, 0);
+    text-shadow: 4px 4px 4px #ffbb00dc;
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+/* Configures ordered list from header */
+nav ol {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  list-style-position: inside;
+  text-align: center;
+  color: #73ffff;
+}
+
+/* Configures hyperlinks from the site's navigation section */
+nav a {
+  display: inline-block;
+  padding: 0rem;
+  font-size: 1.5rem;
+  color: #73ffff;
+  text-decoration: none;
+}
+
+/* Configures hyperlinks from the site's navigation section upon mouse hovering over them */
+nav a:hover {
+  color: #73ffff;
+  font-size: 2rem;
+  border-bottom: 3px solid rgb(2, 247, 255);
+  text-decoration: none
+}
+
+/* Changes the background of the navigation tab */
+nav {
+  font-family: "Audiowide", sans-serif;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 1rem 2rem;
+  margin: 1rem auto 2rem;
+  border: 2px solid #73ffff;
+  border-radius: 12px;
+  max-width: 95%;
+  box-shadow: 0 4px 10px #000000;
+}
+
+#description {
+  font-family: "Carter One", system-ui;
+  text-align: justify;
+  max-width: 1100px;
+  margin: 0 auto;
+}
